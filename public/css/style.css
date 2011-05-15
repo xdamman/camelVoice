@@ -1,0 +1,191 @@
+::-moz-selection{ background: #3366CC; color:#fff; text-shadow: none; }
+::selection { background:#3366CC; color:#fff; text-shadow: none; } 
+a:link { -webkit-tap-highlight-color: #3366CC; } 
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+body, .text {
+	font: 15px/22px 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1em;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-weight: bold;
+}
+
+.main {
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	        background-size: cover;
+	background-color: #000;
+}
+
+.user-1 {
+	background: #000 url(/public/img/people/barack-obama.jpg) no-repeat fixed center center;
+}
+
+.panel {
+	width: 500px;
+	margin-top: 90px;
+	margin-left: 50px;
+	padding: 20px;
+	background-color: #FFF;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+}
+
+.panel header, .panel .subsection {
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 60px;
+	text-indent: -0.06em;
+	margin-bottom: 10px;
+}
+
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+ul.no-bullet {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ul.no-bullet li {
+	
+}
+
+.rounded {
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px dotted #000;
+}
+
+a:hover {
+	color: #000;
+	border-bottom-style: solid;
+}
+
+a.achievement {
+	
+}
+
+a.text-button {
+	background-color: #666;
+	color: #FFF;
+	padding: 3px 5px 2px 5px;
+	text-transform: lowercase;
+	border: none;
+}
+
+a.text-button:hover {
+	background-color: #555;
+}
+
+.more {
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.more a {
+	color: #666;
+	border-bottom-color: #333;
+	border-bottom-style: none;
+}
+
+.more a:hover {
+	color: #000;
+	/*border-bottom-style: solid;*/
+}
+
+
+.icons li {
+	width: 50px;
+	float: left;
+	margin-right: 15px;
+}
+
+.icons li a {
+	border: none;
+	display: block;
+	color: #666;
+	line-height: 13px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.icons li a:hover {
+	color: #000;
+}
+
+
+.icons li a .icon {
+	display: block;
+	background-color: #555;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 7px;
+}
+
+.icons li a:hover .icon {
+	background-color: #333;
+}
+
+.icons .topic-1 {
+	background-image: url(/public/img/icons/topic_1.png);
+}
+
+.icons .topic-2 {
+	background-image: url(/public/img/icons/topic_2.png);
+}
+
+.icons .topic-3 {
+	background-image: url(/public/img/icons/topic_3.png);
+}
+
+.icons .topic-4 {
+	background-image: url(/public/img/icons/topic_4.png);
+}
+
+.icons .topic-5 {
+	background-image: url(/public/img/icons/topic_5.png);
+}
+
+
+
+
+
+
+
+@media all and (orientation:portrait) { 
+  
+}
+
+@media all and (orientation:landscape) { 
+  
+}
+
+@media screen and (max-device-width: 480px) {
+  
+  
+  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}

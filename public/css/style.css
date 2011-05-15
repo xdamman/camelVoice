@@ -22,14 +22,20 @@ a.action, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.main {
+.profile-background {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 	        background-size: cover;
-	background-color: #000;
 }
 
-.user-1 {
+
+.user-1 .profile-background {
 	background: #000 url(/img/people/user-1.jpg) no-repeat fixed center center;
 }
 

@@ -1,4 +1,6 @@
+var express = require('express');
 var app = require('express').createServer();
+app.use(express.static(__dirname + '/public'));
 var mongoose = require('mongoose');
 
 //require('models/entries');
@@ -46,7 +48,9 @@ app.post('/entries', function(req,res) {
 
 
 app.get('/', function(req, res){
-  res.send('hello world');
+  res.render('profile.ejs', {
+    
+  });
 });
 
 app.listen(3000);

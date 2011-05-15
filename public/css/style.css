@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .user-1 {
-	background: #000 url(/public/img/people/barack-obama.jpg) no-repeat fixed center center;
+	background: #000 url(/img/people/barack-obama.jpg) no-repeat fixed center center;
 }
 
 .panel {
@@ -151,23 +151,23 @@ a.text-button:hover {
 }
 
 .icons .topic-1 {
-	background-image: url(/public/img/icons/topic_1.png);
+	background-image: url(/img/icons/topic_1.png);
 }
 
 .icons .topic-2 {
-	background-image: url(/public/img/icons/topic_2.png);
+	background-image: url(/img/icons/topic_2.png);
 }
 
 .icons .topic-3 {
-	background-image: url(/public/img/icons/topic_3.png);
+	background-image: url(/img/icons/topic_3.png);
 }
 
 .icons .topic-4 {
-	background-image: url(/public/img/icons/topic_4.png);
+	background-image: url(/img/icons/topic_4.png);
 }
 
 .icons .topic-5 {
-	background-image: url(/public/img/icons/topic_5.png);
+	background-image: url(/img/icons/topic_5.png);
 }
 
 

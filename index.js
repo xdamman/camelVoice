@@ -38,7 +38,7 @@ app.post('/entries', function(req,res) {
   e.title = "BARACK OBAMA AND JOE BIDEN’S PLAN TO LOWER HEALTH CARE COSTS AND ENSURE AFFORDABLE, ACCESSIBLE HEALTH COVERAGE FOR ALL";
   e.save();
   
-  var jsonstring = JSON.stringify(json, null, 4);
+  var jsonstring = JSON.stringify(e, null, 4);
   
   if (req.param('callback')) return res.send(req.param('callback') + '(' + jsonstring + ')' + '\n', { 'Content-Type': 'application/json' }, 200);
   else return res.send(jsonstring + '\n', { 'Content-Type': 'application/json' }, 200);

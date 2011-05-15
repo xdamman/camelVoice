@@ -9,13 +9,17 @@ body {
 }
 
 body, .text {
-	font: 15px/22px 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+	font: 15px/19px 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1em;
-	font-family: 'Helvetica Neue', Arial, sans-serif;
+	height: 1em;
 	font-weight: bold;
+}
+
+a.action, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .main {
@@ -26,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .user-1 {
-	background: #000 url(/img/people/barack-obama.jpg) no-repeat fixed center center;
+	background: #000 url(/img/people/user-1.jpg) no-repeat fixed center center;
 }
 
 .panel {
@@ -41,20 +45,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .panel header, .panel .subsection {
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	overflow: hidden;
 }
 
 h1 {
-	font-size: 60px;
-	text-indent: -0.06em;
-	margin-bottom: 10px;
+	font-size: 56px;
+	/*text-indent: -0.06em;*/
+	margin-bottom: 7px;
 }
 
 
 h2 {
 	font-size: 36px;
 	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+li {
+	margin-bottom: 2px;
 }
 
 ul.no-bullet {
@@ -70,6 +79,15 @@ ul.no-bullet li {
 	-webkit-border-radius: 4px;
 	   -moz-border-radius: 4px;
 	        border-radius: 4px;
+}
+
+.medium {
+	font-size: 12px;
+	line-height: 13px;
+}
+
+p {
+	margin-bottom: 1em;
 }
 
 a {
@@ -90,7 +108,7 @@ a.achievement {
 a.text-button {
 	background-color: #666;
 	color: #FFF;
-	padding: 3px 5px 2px 5px;
+	padding: 1px 5px 2px 5px;
 	text-transform: lowercase;
 	border: none;
 }
@@ -99,22 +117,22 @@ a.text-button:hover {
 	background-color: #555;
 }
 
-.more {
-	margin-top: 5px;
-	font-size: 12px;
-}
-
-.more a {
+a.small-link {
 	color: #666;
+	font-size: 12px;
 	border-bottom-color: #333;
 	border-bottom-style: none;
 }
 
-.more a:hover {
+a.small-link:hover {
 	color: #000;
 	/*border-bottom-style: solid;*/
 }
 
+.more {
+	margin-top: 5px;
+	font-size: 12px;
+}
 
 .icons li {
 	width: 50px;
@@ -126,15 +144,12 @@ a.text-button:hover {
 	border: none;
 	display: block;
 	color: #666;
-	line-height: 13px;
-	font-size: 12px;
 	text-align: center;
 }
 
 .icons li a:hover {
 	color: #000;
 }
-
 
 .icons li a .icon {
 	display: block;
